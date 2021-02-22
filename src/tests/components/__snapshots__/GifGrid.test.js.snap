@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en gifgrid debe de hacer match con el snapshot 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <div
+    className="loading"
+  >
+    Cargando...
+  </div>
+  <div
+    className="card-container animate__animated animate__fadeInLeft"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas en gifgrid debe de mostraar items cuando se cargan imágenes useFetchGifs 1`] = `
+<Fragment>
+  <h3>
+    Naruto
+  </h3>
+  <div
+    className="loading"
+  >
+    Cargando...
+  </div>
+  <div
+    className="card-container animate__animated animate__fadeInLeft"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="Titulo"
+      url="https://kk.com"
+    />
+  </div>
+</Fragment>
+`;

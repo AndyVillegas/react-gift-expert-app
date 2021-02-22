@@ -19,6 +19,7 @@ export const AddCategory = ({setCategories}) => {
     const valueIsValid = ()=>inputValue.trim().length>2;
     return (
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <input
                 type="text"
                 value={inputValue}
